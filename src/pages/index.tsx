@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 export default function Home() {
     {/* <h1 className={`flex h-screen justify-center 
       items-center bg-gradient-to-r from bg-purple-500 to-blue-600 `}>
@@ -9,7 +11,9 @@ export default function Home() {
         bg-gradient-to-r from-blue-500 to bg-purple-500
         text-white 
       `}>
-        <h1>App</h1>
+        <Layout titulo="Cadastro Simples">
+            <span>Conteudo</span>           
+        </Layout>
     </div>
   )
 }
