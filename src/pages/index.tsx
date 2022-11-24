@@ -14,6 +14,6 @@ export default function Home() {
         <Layout titulo="Cadastro Simples">
             <span>Conteudo</span>           
         </Layout>
-    </div>
+    </div> 
   )
 }
