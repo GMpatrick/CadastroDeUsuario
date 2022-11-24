@@ -1,7 +1,15 @@
 export default function Home() {
+    {/* <h1 className={`flex h-screen justify-center 
+      items-center bg-gradient-to-r from bg-purple-500 to-blue-600 `}>
+      <span className="text-4xl ">Texto</span>
+    </h1> exemplo de como deve ser*/}
   return (
-    <h1 className="flex h-screen justify-center items-center">
-      Hello world!
-    </h1>
+    <div className={`
+        flex justify-center items-center h-screen
+        bg-gradient-to-r from-blue-500 to bg-purple-500
+        text-white 
+      `}>
+        <h1>App</h1>
+    </div>
   )
 }
